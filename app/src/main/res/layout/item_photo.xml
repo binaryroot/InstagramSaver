@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:orientation="vertical"
+                                    card_view:cardUseCompatPadding="true"
+                                    card_view:cardCornerRadius="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="top"
+        android:id="@+id/preview" android:contentDescription="@string/holds_save_item_view"/>
+
+    <ImageView android:layout_width="80dp" android:layout_height="80dp"
+               android:scaleType="fitCenter"
+
+               android:layout_marginBottom="20dp"
+               android:id="@+id/play"
+                android:layout_gravity="center"
+
+               android:src="@drawable/ic_play_arrow_black_24dp"
+               android:contentDescription="@string/is_video_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:gravity="right"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/ic_share_black_24dp" android:id="@+id/share_photo"
+            android:contentDescription="@string/share_photo"/>
+
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_delete_black_24dp" android:id="@+id/delete"
+            android:contentDescription="@string/delete_content"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

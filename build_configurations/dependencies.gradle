@@ -1,0 +1,17 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+/**
+ * Context inside the blocks must be ordered from A-Z.
+ **/
+ext {
+    /** Android **/
+    androidBuildToolsVersion = "25.0.2"
+    androidSupportVersion = "25.2.0"
+    androidCompileSdkVersion = 25
+    androidMinSdkVersion = 17
+    androidTargetSdkVersion = 25
+}

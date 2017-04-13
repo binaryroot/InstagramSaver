@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LauncherActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="sd_card">SD card</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="rate">Rate</string>
+    <string name="run">Run</string>
+    <string name="instagram">Instagram</string>
+    <string name="no_instagram">Instagram was not installed</string>
+    <string name="permiso_title">Provide permission</string>
+    <string name="permiso_message">Application requests Storage permission.</string>
+    <string name="holds_save_item_view">holds save item view</string>
+    <string name="is_video_content">is video content</string>
+
+    <string name="send_to"></string>
+    <string name="send_message"></string>
+    <string name="delete_content">delete content</string>
+    <string name="share_photo">Share photo</string>
+    <string name="delete">Delete</string>
+    <string name="do_you_want_to_delete">Do you want to delete?</string>
+    <string name="cancel">cancel</string>
+    <string name="can_not_open">Can not open the folder</string>
+
+    <string name="new_rate_dialog_title">Rate Me!</string>
+    <string name="new_rate_dialog_never">Never</string>
+    <string name="new_rate_dialog_later">Later</string>
+    <string name="new_rate_dialog_ok">Rate</string>
+
+</resources>

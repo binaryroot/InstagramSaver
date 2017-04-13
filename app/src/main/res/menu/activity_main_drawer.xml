@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="@string/instagram"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery"/>
+        <item
+            android:id="@+id/nav_sdcard"
+            android:icon="@drawable/ic_menu_sdcard"
+            android:title="@string/sd_card"/>
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="@string/rate"/>
+        </menu>
+    </item>
+
+</menu>
